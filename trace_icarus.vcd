@@ -1,0 +1,39 @@
+$date
+	Wed Jan 24 16:00:22 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module dut $end
+$var wire 1 ! celloutsig_84z $end
+$var wire 96 " in_data [95:0] $end
+$var wire 96 # out_data [95:0] $end
+$var wire 1 $ celloutsig_9z $end
+$var wire 1 % celloutsig_38z $end
+$var wire 1 & celloutsig_2z $end
+$var wire 2 ' celloutsig_27z [1:0] $end
+$var wire 2 ( celloutsig_20z [1:0] $end
+$var wire 1 ) celloutsig_17z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0)
+b1 (
+b11 '
+1&
+0%
+0$
+bz0zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz0 #
+b100000000000000000 "
+0!
+$end
+#1
