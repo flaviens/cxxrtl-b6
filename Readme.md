@@ -1,9 +1,20 @@
 # Bad assignment in CXXRTL under specific conditions
 
-How to reproduce:
+## How to reproduce
+
+### Natively (may not show the bug)
+
 ```bash
 bash run_cxxrtl.sh
 ```
+
+### Using Docker
+
+```bash
+make build_docker
+```
+
+## Details
 
 Yosys version: `Yosys 0.37+21 (git sha1 3d9e44d18, clang 10.0.0-4ubuntu1 -fPIC -Os)`
 
@@ -39,3 +50,5 @@ with the equivalent
 ```
 
 fixes the issue.
+
+The issue seems dependent on GCC versions.
