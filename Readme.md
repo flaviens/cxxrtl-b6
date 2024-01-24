@@ -17,6 +17,7 @@ make build_docker
 ## Details
 
 Yosys version: `Yosys 0.37+21 (git sha1 3d9e44d18, clang 10.0.0-4ubuntu1 -fPIC -Os)`
+Icarus version (does not matter too much as long as not too old): `Icarus Verilog version 13.0 (devel) (s20221226-331-g77d7f0b8f)`
 
 Expected:
 ```bash
