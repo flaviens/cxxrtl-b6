@@ -5,19 +5,13 @@ $var wire 32 # in_1 $end
 $var wire 32 $ in_2 $end
 $var wire 96 % out_ $end
 $var wire 32 & out_0 $end
-$var wire 32 ' out_1 $end
-$var wire 32 ( out_2 $end
-$scope module top_i $end
-$var wire 1 ) celloutsig_17z $end
-$var wire 2 * celloutsig_20z $end
-$var wire 2 + celloutsig_27z $end
-$var wire 1 , celloutsig_2z $end
-$var wire 1 - celloutsig_38z $end
-$var wire 1 . celloutsig_84z $end
-$var wire 1 / celloutsig_9z $end
-$var wire 96 ! in_data $end
-$var wire 96 % out_data $end
-$upscope $end
+$var wire 1 ' sig0_0 $end
+$var wire 2 ( sig1_01 $end
+$var wire 2 ) sig2_11 $end
+$var wire 1 * sig3_1 $end
+$var wire 1 + sig4_0 $end
+$var wire 1 , sig5_0 $end
+$var wire 1 - sig6_0 $end
 $enddefinitions $end
 #0
 b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 !
@@ -26,17 +20,15 @@ b00000000000000000000000000000000 #
 b00000000000000000000000000000000 $
 b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 %
 b00000000000000000000000000000000 &
-b00000000000000000000000000000000 '
-b00000000000000000000000000000000 (
-0)
-b01 *
-b01 +
-1,
+0'
+b01 (
+b01 )
+1*
+0+
+0,
 0-
-0.
-0/
 #1
 b000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000 !
 b00000000000000100000000000000000 "
 b00000000000000000000000000000001 &
-b11 +
+b11 )

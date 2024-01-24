@@ -1,5 +1,5 @@
 $date
-	Wed Jan 24 17:42:50 2024
+	Wed Jan 24 18:19:45 2024
 $end
 $version
 	Icarus Verilog
@@ -9,15 +9,19 @@ $timescale
 $end
 $scope module testbench $end
 $scope module dut $end
-$var wire 1 ! celloutsig_84z $end
-$var wire 96 " in_data [95:0] $end
-$var wire 96 # out_data [95:0] $end
-$var wire 1 $ celloutsig_9z $end
-$var wire 1 % celloutsig_38z $end
-$var wire 1 & celloutsig_2z $end
-$var wire 2 ' celloutsig_27z [1:0] $end
-$var wire 2 ( celloutsig_20z [1:0] $end
-$var wire 1 ) celloutsig_17z $end
+$var wire 32 ! in_0 [31:0] $end
+$var wire 32 " in_1 [31:0] $end
+$var wire 32 # in_2 [31:0] $end
+$var wire 1 $ sig5_0 $end
+$var wire 1 % sig6_0 $end
+$var wire 1 & sig4_0 $end
+$var wire 1 ' sig3_1 $end
+$var wire 2 ( sig2_11 [1:0] $end
+$var wire 2 ) sig1_01 [1:0] $end
+$var wire 1 * sig0_0 $end
+$var wire 32 + out_0 [31:0] $end
+$var wire 96 , out_ [95:0] $end
+$var wire 96 - in_ [95:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -26,14 +30,18 @@ $dumpall
 $end
 #0
 $dumpvars
-0)
-b1 (
-b11 '
-1&
+b100000000000000000 -
+bz0zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz0 ,
+bz0 +
+0*
+b1 )
+b11 (
+1'
+0&
 0%
 0$
-bz0zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz0 #
-b100000000000000000 "
-0!
+b0 #
+b0 "
+b100000000000000000 !
 $end
 #1

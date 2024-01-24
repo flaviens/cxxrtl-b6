@@ -4,7 +4,7 @@
 #include <fstream>
 
 int main() {
-  cxxrtl_design::p_wrapper__cxxrtl top;
+  cxxrtl_design::p_top top;
 
   cxxrtl::vcd_writer vcd;
   cxxrtl::debug_items debug;
